@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-bottom: 60px;
+    background-image: url('destinos.webp');
+    background-size: cover; 
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destino-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.destino {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    box-sizing: border-box; 
+}
+
+.destino img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.destino h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.destino p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.form-destino {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-destino h2 {
+    margin-bottom: 10px;
+}
+
+.form-destino div {
+    margin-bottom: 10px;
+}
+
+.form-destino label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-destino input,
+.form-destino textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-destino button {
+    padding: 8px 15px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form-destino button:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #000; 
+    padding: 10px 0;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar nav ul li a:hover {
+    text-decoration: underline;
+}

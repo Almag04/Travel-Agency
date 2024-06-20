@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos para Viajar</title>
+    <link rel="stylesheet" href="destinos.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="hoteis.html">Hotéis</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="titulo">Destinos para Viajar</h1>
+
+        <div id="destino-list" class="destino-list">
+        </div>
+
+        <div id="botoes">
+            <button id="novoDestinoBtn">Novo Destino</button>
+        </div>
+
+        <form id="formDestino" class="form-destino" style="display: none;">
+            <h2 id="formTitulo">Adicionar Destino</h2>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div>
+                <label for="imagem">URL da Imagem:</label>
+                <input type="text" id="imagem" name="imagem" required>
+            </div>
+            <div>
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" rows="3" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Salvar</button>
+                <button type="button" id="cancelar">Cancelar</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Travel Agency. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="destinos.js" defer></script>
+</body>
+</html>
